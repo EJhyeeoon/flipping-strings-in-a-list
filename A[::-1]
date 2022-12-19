@@ -1,0 +1,4 @@
+survey=["AN", "CF", "MJ", "RT", "NA"]
+choices=[5, 3, 2, 7, 5]
+for A,B in zip(survey, choices):
+    print(A[::-1])
